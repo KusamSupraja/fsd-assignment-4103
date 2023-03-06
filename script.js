@@ -12,9 +12,7 @@ var createNewTaskElement=function(taskString){
 	label.innerText=taskString;
 	checkBox.type="checkbox";
 	editInput.type="text";
-	editButton.innerText="Edit";
 	editButton.className="edit";
-	deleteButton.innerText="Delete";
 	deleteButton.className="delete";
 	listItem.appendChild(checkBox);
 	listItem.appendChild(label);
